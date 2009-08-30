@@ -1,6 +1,6 @@
 {
     "name": "jake",
     "author": "Tom Robinson (http://tlrobinson.net/)",
-    "description": "A build system for ServerJS, inspired by Rake",
+    "description": "A build system for CommonJS, inspired by Rake",
     "keywords": ["build", "rake", "make"]
 }
