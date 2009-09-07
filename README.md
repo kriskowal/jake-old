@@ -1,5 +1,6 @@
 
-= Jake =
+Jake
+====
 
 A build system implemented in JavaScript, using a JavaScript
 DSL (Domain Specific Language) for declaring and applying
