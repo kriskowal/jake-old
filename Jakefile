@@ -1,4 +1,5 @@
-var file = require("file");
+
+var FILE = require("file");
 
 with(require("jake")) {
 
@@ -21,7 +22,7 @@ with(require("jake")) {
 
     file("foobar").dep(["barfoo"]).action(function() {
         print("writing");
-        file.write("foobar", "baz");
+        FILE.write("foobar", "baz");
     })
 
     file("barfoo").action(function() {
